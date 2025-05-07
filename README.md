@@ -208,6 +208,8 @@ sns.boxplot(x=tips['day'], y=tips ['total_bill'], hue=tips['sex'])
 ```
 # Output
 
+![image](https://github.com/user-attachments/assets/aee3c334-7291-48de-b4a5-cf70389e9bfe)
+
 
 
 ```
@@ -216,6 +218,8 @@ whiskerprops={"color": "black", "linestyle": "--", "linewidth": 1.5}, capprops={
 ```
 
 # Output
+
+![image](https://github.com/user-attachments/assets/cfd6977f-2ffa-4cdc-a13d-28c1c094778e)
 
 
 ```
@@ -227,12 +231,17 @@ plt.title("Violin Plot of Total Bill by Day and Smoker Status")
 
 # Output
 
+![image](https://github.com/user-attachments/assets/ebe442b2-82ce-4bcc-b09a-4e94639460e2)
+
 ```
 mart=pd.read_csv("titanic_dataset.csv")
 mart
 ```
 
 # Output
+
+![image](https://github.com/user-attachments/assets/91421083-e19a-45c0-8b52-246831287021)
+
 
 ```
 mart=mart[['PassengerId', 'Survived', 'Age', 'Name', 'Ticket', 'Embarked']] 
@@ -241,11 +250,16 @@ mart.head(10)
 
 # Output
 
+![image](https://github.com/user-attachments/assets/e4126fe7-ba75-42ac-a59d-ebb8aa41682b)
+
 ```
 sns.kdeplot(data=mart,x='PassengerId')
 ```
 
 # Output
+
+![image](https://github.com/user-attachments/assets/3aa53bbc-8dac-46ef-92ff-267a1c1613ae)
+
 
 ```
 sns.kdeplot(data=mart,x='Age')
@@ -253,17 +267,25 @@ sns.kdeplot(data=mart,x='Age')
 
 # Output
 
+![image](https://github.com/user-attachments/assets/c09e761b-b31a-4244-8832-56130c1c3fc6)
+
+
 ```
 sns.kdeplot(data=mart)
 ```
 
 # Output
 
+![image](https://github.com/user-attachments/assets/5ddeecf3-8d56-4d3b-865b-f50246f19902)
+
+
 ```
 sns.kdeplot(data=mart,x='PassengerId',hue='Survived',multiple='stack')
 ```
 
 # Output
+
+![image](https://github.com/user-attachments/assets/5c52d0c9-9c89-4610-a099-3e08cc05404a)
 
 
 ```
@@ -273,6 +295,7 @@ sns.kdeplot(data=mart,x='PassengerId',y='Survived')
 
 # Output
 
+![image](https://github.com/user-attachments/assets/36932409-724e-4719-a76f-9c9a12c4c426)
 
 ```
 data = np.random.randint(low = 1, high = 100, size = (10,10))
@@ -282,10 +305,16 @@ hm=sns.heatmap(data=data,annot=True)
 
 # Output
 
+![image](https://github.com/user-attachments/assets/afc62557-afa1-4309-b012-1cefdeb8614c)
+
 
 ```
 hm=sns.heatmap(data=data)
 ```
+
+# Output
+
+![image](https://github.com/user-attachments/assets/b91efa27-28bd-4dd5-815b-a7e0e3ec0611)
 
 
 # Result:
